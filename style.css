@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: poppins, sans-serif;
+}
+
+.container{
+    padding: 15px;
+    background-color: white;
+}
+
+img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+label{
+    color: rgba(120,0,208,255);
+    font-weight: 500;
+}
+
+
+input{
+    width: 100%;
+    border: none ;
+    border-bottom: 2px solid rgba(120,0,208,255);
+    outline: none;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.password-input{
+    border-bottom: 2px solid rgba(110, 26, 110, 0.1);
+    padding-left: 0px;
+}
+
+.password-input::placeholder{
+    color: rgba(110, 26, 110, 0.3);
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+button{
+    width: 100%;
+    background-color: rgba(120,0,208,255);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px;
+}
+
+button:hover{
+    background-color:purple;
+}
+
+.write-up{
+    text-align: center;
+    font-size: 12px;
+}
+
+.write-up span{
+    color: rgba(120,0,208,255);
+    text-transform: capitalize;
+}
+
+.write-up p{
+    color: rgba(110, 26, 110, 0.4);
+}
+ 
+
+form{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
